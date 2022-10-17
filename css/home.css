@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Kreon:wght@700&display=swap");
+h2, h3 {
+  font-family: 'Kreon', serif;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 1em 2em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: #000;
+  background-color: transparent;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1em 3em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.navbar h3 {
+  border: #000 solid 1px;
+  padding: 0.2em;
+  letter-spacing: 5px;
+}
+
+.navbar a {
+  color: #000;
+}
+
+.blog {
+  padding: 5em 7em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blog .blog-card {
+  background-color: #fff;
+}
+
+.blog .blog-card img {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.blog .blog-card button {
+  width: 100%;
+}
+
+.new-collection {
+  padding: 5em 7em;
+  text-align: center;
+}
+
+.new-collection img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.new-collection .type-1 {
+  height: 500px;
+}
+
+.new-collection .type-2 {
+  height: 400px;
+}
+
+.new-collection .product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.new-collection .product-card .overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #000;
+  position: absolute;
+  bottom: -50%;
+  right: 0;
+  left: 0;
+  padding: 2em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.new-collection .product-card .overlay a {
+  color: #fff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.new-collection .product-card .overlay a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.new-collection .product-card:hover .overlay {
+  bottom: 0;
+}
+
+.view-products {
+  color: #fff;
+}
+
+.view-products .offers {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/paira-banner-small-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/paira-banner-small-1.jpg);
+}
+
+.view-products .best-seller {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images//paira-banner-small-2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images//paira-banner-small-2.jpg);
+  text-align: right;
+}
+
+.view-products .offers, .view-products .best-seller {
+  padding: 7em 3em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2em 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer a {
+  color: #000;
+  margin: 0 1em;
+  border-bottom: 1px transparent solid;
+  padding: 1em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer a:hover {
+  border-bottom: #000 1px solid;
+  color: #000;
+}
+/*# sourceMappingURL=home.css.map */
